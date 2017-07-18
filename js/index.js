@@ -4,7 +4,7 @@ $(document).ready(function() {
 	$(document).delegate(".Login", "click", function() {
 			$(this).addClass("btn-success").siblings(".register").removeClass("btn-success")
 			$(".log-in").removeClass("hide");
-			$(".regist-er").addClass("hide");
+			$(".regist-er").addClass("hide"); 
 		})
 		//切换登录注册
 	$(document).delegate(".register", "click", function() {
