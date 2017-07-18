@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" charset="utf-8" src="js/jquery-3.2.0.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="contant">
+			<div class="choose">
+				<div class="Login btn btn-default">Login</div>
+				<div class="register btn btn-default btn-success">Register</div>
+			</div>
+			<div class="log-in hide">
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+						<div class="col-sm-10">
+							<input type="email" class="form-control emailLog" id="inputEmail3" placeholder="Email">
+						</div>
+						<span class="userError hide">* 邮箱格式错误！</span>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+						<div class="col-sm-10">
+							<input type="password" class="form-control emailPsd" id="inputPassword3" placeholder="Password">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<div  class="signBtn btn btn-success">Sign in</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="regist-er">
+				<form class="form-horizontal">
+					<div class="form-group email-group">
+						<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+						<div class="col-sm-10">
+							<input type="email" class="email form-control" id="inputEmail3" placeholder="Email">
+						</div>
+						<span class="emailError hide">* 邮箱格式错误！</span>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+						<div class="col-sm-10">
+							<input type="password" class="reg-psd form-control" id="inputPassword3" placeholder="Password">
+						</div>
+						<span class="psdError hide">* 密码由6-10位字母数字组成</span>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword3" class="col-sm-2 control-label">Again</label>
+						<div class="col-sm-10">
+							<input type="password" class="again-psd form-control" id="inputPassword3" placeholder="Password">
+						</div>
+						<span class="againError hide">* 两次密码不一致</span>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<div class="regBtn btn btn-success">Register</div>
+						</div>
+					</div>
+				</form>
+			</div>	
+		</div>
+
+		
+	</body>
+	<script type="text/javascript">
+		window.onload=function(){
+			localStorage.setItem("arr","[]")
+		}
+		
+	</script>
+
+</html>

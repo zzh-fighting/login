@@ -1,0 +1,27 @@
+.contant{
+   		width: 20%;
+   		margin: 200px auto;
+}
+.choose{
+	font-size: 0;
+	width: 100%;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.choose>div{
+	display: inline-block;
+	font-size: 15px;
+	width: 150px;
+	margin-left: 10px;
+
+}
+.hide{
+	display: none;
+}
+.emailError,.psdError,.againError,.userError{
+	color:#d9534f;
+	display: inline-block;
+	margin-left: 100px;
+	padding-top: 10px;
+}
+
